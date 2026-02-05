@@ -273,9 +273,9 @@ const renderStatsCard = (stats, options = {}) => {
   };
   STATS.commits = {
     icon: icons.commits,
-    label: `${i18n.t("statcard.commits")}${
-      include_all_commits ? "" : ` (${new Date().getFullYear()})`
-    }`,
+    label: include_all_commits
+      ? i18n.t("statcard.contributions")
+      : `${i18n.t("statcard.contributions")} (${new Date().getFullYear()})`,
     value: totalCommits,
     id: "commits",
   };
@@ -516,9 +516,9 @@ const renderStatsCard = (stats, options = {}) => {
     .filter((key) => !hide.includes(key))
     .map((key) => {
       if (key === "commits") {
-        return `${i18n.t("statcard.commits")} ${
-          include_all_commits ? "" : `in ${new Date().getFullYear()}`
-        } : ${STATS[key].value}`;
+        return `${i18n.t("statcard.contributions")}${
+          include_all_commits ? "" : ` in ${new Date().getFullYear()}`
+        }: ${STATS[key].value}`;
       }
       return `${STATS[key].label}: ${STATS[key].value}`;
     })
