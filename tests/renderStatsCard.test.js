@@ -387,9 +387,7 @@ describe("Test renderStatsCard", () => {
       document.querySelector(
         'g[transform="translate(0, 25)"]>.stagger>.stat.bold',
       ).textContent,
-    ).toMatchInlineSnapshot(
-      `"总贡献数 (${new Date().getFullYear()}):"`,
-    );
+    ).toMatchInlineSnapshot(`"总贡献数 (${new Date().getFullYear()}):"`);
     expect(
       document.querySelector(
         'g[transform="translate(0, 50)"]>.stagger>.stat.bold',
