@@ -516,9 +516,9 @@ const renderStatsCard = (stats, options = {}) => {
     .filter((key) => !hide.includes(key))
     .map((key) => {
       if (key === "commits") {
-        return `${i18n.t("statcard.contributions")} ${
-          include_all_commits ? "" : `in ${new Date().getFullYear()}`
-        } : ${STATS[key].value}`;
+        return `${i18n.t("statcard.contributions")}${
+          include_all_commits ? "" : ` in ${new Date().getFullYear()}`
+        }: ${STATS[key].value}`;
       }
       return `${STATS[key].label}: ${STATS[key].value}`;
     })
