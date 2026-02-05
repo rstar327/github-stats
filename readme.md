@@ -117,6 +117,7 @@ Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of
   - [On Vercel](#on-vercel)
     - [:film\_projector: Check Out Step By Step Video Tutorial By @codeSTACKr](#film_projector-check-out-step-by-step-video-tutorial-by-codestackr)
   - [On other platforms](#on-other-platforms)
+  - [Docker](#docker)
   - [Disable rate limit protections](#disable-rate-limit-protections)
   - [Keep your fork up to date](#keep-your-fork-up-to-date)
 - [:sparkling\_heart: Support the project](#sparkling_heart-support-the-project)
@@ -810,6 +811,72 @@ Since the GitHub API only allows 5k requests per hour, my `https://github-readme
     <https://github.com/anuraghazra/github-readme-stats/blob/ba7c2f8b55eac8452e479c8bd38b044d204d0424/package.json#L11>
 5.  You're done 🎉
     </details>
+
+## Docker
+
+You can run GitHub Readme Stats locally using Docker for development or self-hosting.
+
+### Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/rstar327/github-stats.git
+cd github-stats
+
+# 2. Create environment file
+cp .env.example .env
+
+# 3. Edit .env and add your GitHub token
+# PAT_1=ghp_your_github_token_here
+
+# 4. Start the container
+docker compose up -d
+
+# 5. Access the API
+# http://localhost:9000/?username=your_username
+```
+
+### Environment Variables
+
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `PAT_1` | GitHub Personal Access Token | Yes |
+
+> [!NOTE]\
+> Create a GitHub token at [github.com/settings/tokens](https://github.com/settings/tokens). No scopes needed for public data, or add `read:user` for private contribution counts.
+
+### Docker Compose
+
+The `docker-compose.yml` file is configured to:
+- Build the app from Dockerfile
+- Expose port 9000
+- Load environment variables from `.env`
+
+```yaml
+services:
+  github-stats:
+    build: .
+    ports:
+      - "9000:9000"
+    env_file:
+      - .env
+```
+
+### Endpoints
+
+**Local (Docker):**
+| Endpoint | Description |
+|----------|-------------|
+| `http://localhost:9000/?username=USERNAME` | Stats card |
+| `http://localhost:9000/top-langs?username=USERNAME` | Top languages |
+| `http://localhost:9000/pin?username=USERNAME&repo=REPO` | Repo pin |
+
+**Production (Vercel):**
+| Endpoint | Description |
+|----------|-------------|
+| `https://your-app.vercel.app/api/?username=USERNAME` | Stats card |
+| `https://your-app.vercel.app/api/top-langs?username=USERNAME` | Top languages |
+| `https://your-app.vercel.app/api/pin?username=USERNAME&repo=REPO` | Repo pin |
 
 ## Disable rate limit protections
 
