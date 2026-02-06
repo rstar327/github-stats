@@ -595,7 +595,7 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327\&hide=issues\&show_icons=true)
 
-*   Shows Github logo instead rank level
+*   Shows GitHub logo instead rank level
 
 ![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327\&rank_icon=github)
 
@@ -804,7 +804,7 @@ services:
 
 ## Disable rate limit protections
 
-Github Readme Stats contains several Vercel environment variables that can be used to remove the rate limit protections:
+GitHub Readme Stats contains several Vercel environment variables that can be used to remove the rate limit protections:
 
 *   `CACHE_SECONDS`: This environment variable takes precedence over our cache minimum and maximum values and can circumvent these values for self-hosted Vercel instances.
 

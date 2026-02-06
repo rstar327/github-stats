@@ -229,7 +229,7 @@ Endpoint: `api/pin?username=rstar327&repo=github-stats`
 
 [![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats)](https://github.com/rstar327/github-stats)
 
-Use [show_owner](#customization) variable to include the repo's owner username
+Use [show_owner](#अनुकूलन) variable to include the repo's owner username
 
 [![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats&show_owner=true)](https://github.com/rstar327/github-stats)
 

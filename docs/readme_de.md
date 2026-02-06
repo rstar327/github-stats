@@ -299,7 +299,7 @@ Du kannst die `&layout=compact` Option nutzen, um das Kartendesign zu ändern.
 
 - Erscheinungsbild/Themes
 
-Wähle Eines von den [Standard-Themes](#themes)
+Wähle Eines von den [Standard-Themes](#erscheinungsbildthemes)
 
 ![Anurag's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&show_icons=true&theme=radical)
 

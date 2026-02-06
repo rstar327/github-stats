@@ -276,7 +276,7 @@ Puoi utilizzare l'opzione `&layout=compact` per cambiare l'aspetto della card.
 
 - Temi
 
-Scegli uno dei [temi di default](#themes)
+Scegli uno dei [temi di default](#temi)
 
 ![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&show_icons=true&theme=radical)
 
