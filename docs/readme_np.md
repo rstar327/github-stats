@@ -219,19 +219,19 @@ GitHub फाल्तु पिनले तपाइँलाए GitHub री
 
 कोदलाए  कपी- पेसेत  readme मा गर्नु होला र लिंक परिवतन गर्नु होला |
 
-Endpoint: `api/pin?username=rstar327&repo=github-readme-stats`
+Endpoint: `api/pin?username=rstar327&repo=github-stats`
 
 ```md
-[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats)](https://github.com/rstar327/github-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats)](https://github.com/rstar327/github-stats)
 ```
 
 ### डेमो 
 
-[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats)](https://github.com/rstar327/github-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats)](https://github.com/rstar327/github-stats)
 
 Use [show_owner](#customization) variable to include the repo's owner username
 
-[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats&show_owner=true)](https://github.com/rstar327/github-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats&show_owner=true)](https://github.com/rstar327/github-stats)
 
 # टोप भाषा कार्ड 
 
@@ -342,7 +342,7 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 - रेपो कार्डलाई एडित गर्नु 
 
-![Customized Card](https://github-stats-mu-nine.vercel.app/api/pin?username=rstar327&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://github-stats-mu-nine.vercel.app/api/pin?username=rstar327&repo=github-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - टोप भाषा 
 
@@ -360,7 +360,7 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ```html
 <a href="https://github.com/rstar327/github-stats">
-  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats" />
+  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats" />
 </a>
 <a href="https://github.com/rstar327/github-profile-trophy">
   <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-profile-trophy" />

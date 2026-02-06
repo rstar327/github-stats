@@ -195,19 +195,19 @@ Uhu! Você não está mais limitado a 6 repositórios fixados.
 
 Copie e cole esse código no seu README.md e altere os atributos.
 
-Endpoint: `api/pin?username=rstar327&repo=github-readme-stats`
+Endpoint: `api/pin?username=rstar327&repo=github-stats`
 
 ```md
-[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats)](https://github.com/rstar327/github-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats)](https://github.com/rstar327/github-stats)
 ```
 
 ### Demonstração
 
-[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats)](https://github.com/rstar327/github-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats)](https://github.com/rstar327/github-stats)
 
 Utilize a variável [show_owner](#personalização) para incluir o nome de usuário do proprietária do repositório
 
-[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats&show_owner=true)](https://github.com/rstar327/github-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats&show_owner=true)](https://github.com/rstar327/github-stats)
 
 # Cartão de principais linguagens de programação
 
@@ -297,7 +297,7 @@ Escolha entre um dos [temas predefinidos](#temas)
 
 - Customizando o cartão de repositório
 
-![Customized Card](https://github-stats-mu-nine.vercel.app/api/pin?username=rstar327&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://github-stats-mu-nine.vercel.app/api/pin?username=rstar327&repo=github-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Principais linguagens
 
@@ -311,7 +311,7 @@ Por padrão, você não poderá organizar as imagens lado a lado. Para fazer iss
 
 ```html
 <a href="https://github.com/rstar327/github-stats">
-  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats" />
+  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats" />
 </a>
 <a href="https://github.com/rstar327/github-profile-trophy">
   <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-profile-trophy" />

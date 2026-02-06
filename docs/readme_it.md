@@ -200,19 +200,19 @@ GitHub Extra Pins ti permette di fissare in alto più di 6 repository nel tuo pr
 
 Copia e incolla il seguente codice, premurandoti di cambiare il link.
 
-Endpoint: `api/pin?username=rstar327&repo=github-readme-stats`
+Endpoint: `api/pin?username=rstar327&repo=github-stats`
 
 ```md
-[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats)](https://github.com/rstar327/github-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats)](https://github.com/rstar327/github-stats)
 ```
 
 ### Demo
 
-[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats)](https://github.com/rstar327/github-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats)](https://github.com/rstar327/github-stats)
 
 Usa la variabile [show_owner](#personalizzazione) per includere il nome utente del proprietario
 
-[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats&show_owner=true)](https://github.com/rstar327/github-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats&show_owner=true)](https://github.com/rstar327/github-stats)
 
 # Top Languages Card
 
@@ -290,7 +290,7 @@ Scegli uno dei [temi di default](#themes)
 
 - Personalizzare le Repo Card
 
-![Customized Card](https://github-stats-mu-nine.vercel.app/api/pin?username=rstar327&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://github-stats-mu-nine.vercel.app/api/pin?username=rstar327&repo=github-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Linguaggi più usati
 
@@ -304,7 +304,7 @@ Per allineare le card una accanto all'altra, puoi adottare questo approccio:
 
 ```html
 <a href="https://github.com/rstar327/github-stats">
-  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats" />
+  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats" />
 </a>
 <a href="https://github.com/rstar327/github-profile-trophy">
   <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-profile-trophy" />

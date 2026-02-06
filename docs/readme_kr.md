@@ -235,19 +235,19 @@ GitHub 저장소 여분 핀을 이용하면, 6개 이상의 저장소 핀을 여
 
 이 코드를 복사해서 여러분의 README 에 넣고 링크를 변경해주세요.
 
-엔드 포인트: `api/pin?username=rstar327&repo=github-readme-stats`
+엔드 포인트: `api/pin?username=rstar327&repo=github-stats`
 
 ```md
-[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats)](https://github.com/rstar327/github-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats)](https://github.com/rstar327/github-stats)
 ```
 
 ### 미리보기
 
-[![GitHub 저장소 핀 카드](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats)](https://github.com/rstar327/github-stats)
+[![GitHub 저장소 핀 카드](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats)](https://github.com/rstar327/github-stats)
 
 [show_owner](#커스터마이징) 속성을 통해 저장소 소유자의 닉네임 표시 여부를 설정할 수 있어요.
 
-[![GitHub 저장소 핀 카드](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats&show_owner=true)](https://github.com/rstar327/github-stats)
+[![GitHub 저장소 핀 카드](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats&show_owner=true)](https://github.com/rstar327/github-stats)
 
 # 언어 사용량 통계
 
@@ -365,7 +365,7 @@ _참고:
 
 - 저장소 핀 커스터마이징하기
 
-![Anurag 님의 GitHub 저장소 핀](https://github-stats-mu-nine.vercel.app/api/pin?username=rstar327&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Anurag 님의 GitHub 저장소 핀](https://github-stats-mu-nine.vercel.app/api/pin?username=rstar327&repo=github-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - 언어 사용량 통계
 
@@ -385,7 +385,7 @@ _참고:
 
 ```html
 <a href="https://github.com/rstar327/github-stats">
-  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats" />
+  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats" />
 </a>
 <a href="https://github.com/rstar327/github-profile-trophy">
   <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-profile-trophy" />

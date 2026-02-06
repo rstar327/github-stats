@@ -221,19 +221,19 @@ Hey! Artık 6 pin ile kısıtlı kalmayacaksınız!
 
 Alttaki kodu kopyalayıp readme dosyanıza urlleri değiştirerek yapıştırın.
 
-Endpoint: `api/pin?username=mustafacagri&repo=github-readme-stats`
+Endpoint: `api/pin?username=mustafacagri&repo=github-stats`
 
 ```md
-[![ReadMe Kartı](https://github-stats-mu-nine.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats)](https://github.com/rstar327/github-stats)
+[![ReadMe Kartı](https://github-stats-mu-nine.vercel.app/api/pin/?username=mustafacagri&repo=github-stats)](https://github.com/rstar327/github-stats)
 ```
 
 ### Demo
 
-[![ReadMe Kartı](https://github-stats-mu-nine.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats)](https://github.com/rstar327/github-stats)
+[![ReadMe Kartı](https://github-stats-mu-nine.vercel.app/api/pin/?username=mustafacagri&repo=github-stats)](https://github.com/rstar327/github-stats)
 
 [show_owner](#özelleştirmeler) ile reponun sahibini gösterebilirsiniz.
 
-[![ReadMe Kartı](https://github-stats-mu-nine.vercel.app/api/pin/?username=mustafacagri&repo=github-readme-stats&show_owner=true)](https://github.com/rstar327/github-stats)
+[![ReadMe Kartı](https://github-stats-mu-nine.vercel.app/api/pin/?username=mustafacagri&repo=github-stats&show_owner=true)](https://github.com/rstar327/github-stats)
 
 # En Çok Kullanılan Diller
 
@@ -349,7 +349,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 
 - Repo kartı düzenleyin
 
-![Customized Card](https://github-stats-mu-nine.vercel.app/api/pin?username=rstar327&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://github-stats-mu-nine.vercel.app/api/pin?username=rstar327&repo=github-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - En çok kullanılan diller
 
@@ -367,7 +367,7 @@ Genellikle resimleri yan yana düzenleyemezsiniz. Bunu yapmak için şu yaklaş�
 
 ```html
 <a href="https://github.com/rstar327/github-stats">
-  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-readme-stats" />
+  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats" />
 </a>
 <a href="https://github.com/rstar327/github-profile-trophy">
   <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-profile-trophy" />
