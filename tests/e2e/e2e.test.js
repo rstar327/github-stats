@@ -104,6 +104,15 @@ const GIST_DATA = {
 
 const CACHE_BURST_STRING = `v=${new Date().getTime()}`;
 
+const axiosConfig = process.env.VERCEL_AUTOMATION_BYPASS_SECRET
+  ? {
+      headers: {
+        "x-vercel-protection-bypass":
+          process.env.VERCEL_AUTOMATION_BYPASS_SECRET,
+      },
+    }
+  : {};
+
 describe("Fetch Cards", () => {
   let VERCEL_PREVIEW_URL;
 
@@ -117,7 +126,10 @@ describe("Fetch Cards", () => {
 
     // Check if the Vercel preview instance stats card function is up and running.
     await expect(
-      axios.get(`${VERCEL_PREVIEW_URL}/api?username=${STATS_CARD_USER}`),
+      axios.get(
+        `${VERCEL_PREVIEW_URL}/api?username=${STATS_CARD_USER}`,
+        axiosConfig,
+      ),
     ).resolves.not.toThrow();
 
     // Get local stats card.
@@ -128,6 +140,7 @@ describe("Fetch Cards", () => {
     // Get the Vercel preview stats card response.
     const serverStatsSvg = await axios.get(
       `${VERCEL_PREVIEW_URL}/api?username=${STATS_CARD_USER}&include_all_commits=true&${CACHE_BURST_STRING}`,
+      axiosConfig,
     );
 
     // Check if stats card from deployment matches the stats card from local.
@@ -140,10 +153,12 @@ describe("Fetch Cards", () => {
     // Check if the Vercel preview instance language card function is up and running.
     console.log(
       `${VERCEL_PREVIEW_URL}/api/top-langs/?username=${USER}&${CACHE_BURST_STRING}`,
+      axiosConfig,
     );
     await expect(
       axios.get(
         `${VERCEL_PREVIEW_URL}/api/top-langs/?username=${USER}&${CACHE_BURST_STRING}`,
+        axiosConfig,
       ),
     ).resolves.not.toThrow();
 
@@ -153,6 +168,7 @@ describe("Fetch Cards", () => {
     // Get the Vercel preview language card response.
     const severLanguageSVG = await axios.get(
       `${VERCEL_PREVIEW_URL}/api/top-langs/?username=${USER}&${CACHE_BURST_STRING}`,
+      axiosConfig,
     );
 
     // Check if language card from deployment matches the local language card.
@@ -164,7 +180,10 @@ describe("Fetch Cards", () => {
 
     // Check if the Vercel preview instance WakaTime function is up and running.
     await expect(
-      axios.get(`${VERCEL_PREVIEW_URL}/api/wakatime?username=${USER}`),
+      axios.get(
+        `${VERCEL_PREVIEW_URL}/api/wakatime?username=${USER}`,
+        axiosConfig,
+      ),
     ).resolves.not.toThrow();
 
     // Get local WakaTime card.
@@ -173,6 +192,7 @@ describe("Fetch Cards", () => {
     // Get the Vercel preview WakaTime card response.
     const serverWakaTimeSvg = await axios.get(
       `${VERCEL_PREVIEW_URL}/api/wakatime?username=${USER}&${CACHE_BURST_STRING}`,
+      axiosConfig,
     );
 
     // Check if WakaTime card from deployment matches the local WakaTime card.
@@ -186,6 +206,7 @@ describe("Fetch Cards", () => {
     await expect(
       axios.get(
         `${VERCEL_PREVIEW_URL}/api/pin/?username=${USER}&repo=${REPO}&${CACHE_BURST_STRING}`,
+        axiosConfig,
       ),
     ).resolves.not.toThrow();
 
@@ -195,6 +216,7 @@ describe("Fetch Cards", () => {
     // Get the Vercel preview repo card response.
     const serverRepoSvg = await axios.get(
       `${VERCEL_PREVIEW_URL}/api/pin/?username=${USER}&repo=${REPO}&${CACHE_BURST_STRING}`,
+      axiosConfig,
     );
 
     // Check if Repo card from deployment matches the local Repo card.
@@ -208,6 +230,7 @@ describe("Fetch Cards", () => {
     await expect(
       axios.get(
         `${VERCEL_PREVIEW_URL}/api/gist?id=${GIST_ID}&${CACHE_BURST_STRING}`,
+        axiosConfig,
       ),
     ).resolves.not.toThrow();
 
@@ -217,6 +240,7 @@ describe("Fetch Cards", () => {
     // Get the Vercel preview gist card response.
     const serverGistSvg = await axios.get(
       `${VERCEL_PREVIEW_URL}/api/gist?id=${GIST_ID}&${CACHE_BURST_STRING}`,
+      axiosConfig,
     );
 
     // Check if Gist card from deployment matches the local Gist card.
