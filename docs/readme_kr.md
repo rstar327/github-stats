@@ -347,7 +347,7 @@ _참고:
 
 - 테마들
 
-[내장 테마](#themes) 에서 직접 선택해보세요
+[내장 테마](`#테마-설정하기`) 에서 직접 선택해보세요
 
 ![Anurag 님의 GitHub 사용량 통계](https://github-stats-mu-nine.vercel.app/api?username=rstar327&show_icons=true&theme=radical)
 
