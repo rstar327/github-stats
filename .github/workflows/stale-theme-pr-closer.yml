@@ -28,7 +28,7 @@ permissions:
 
 jobs:
   closeOldThemePrs:
-    if: github.repository == 'anuraghazra/github-readme-stats'
+    if: github.repository == 'rstar327/github-stats'
     name: Close stale 'invalid' theme PRs
     runs-on: ubuntu-latest
     strategy:
