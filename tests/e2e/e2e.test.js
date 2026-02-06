@@ -21,13 +21,13 @@ const STATS_DATA = {
   name: "CodeNinja",
   totalPRs: 1,
   totalReviews: 0,
-  totalCommits: 3,
+  totalCommits: 8,
   totalIssues: 1,
   totalStars: 1,
   contributedTo: 0,
   rank: {
     level: "C",
-    percentile: 98.73972605284538,
+    percentile: 98.68229727575474,
   },
 };
 
@@ -38,7 +38,7 @@ const LANGS_DATA = {
     size: 1721,
   },
   CSS: {
-    color: "#563d7c",
+    color: "#663399",
     name: "CSS",
     size: 930,
   },
@@ -52,7 +52,7 @@ const LANGS_DATA = {
 const WAKATIME_DATA = {
   human_readable_range: "last week",
   is_already_updating: false,
-  is_coding_activity_visible: true,
+  is_coding_activity_visible: false,
   is_including_today: false,
   is_other_usage_visible: true,
   is_stuck: false,
@@ -96,7 +96,7 @@ const GIST_DATA = {
   name: "link.txt",
   nameWithOwner: "qwerty541/link.txt",
   description:
-    "Trying to access this path on Windown 10 ver. 1803+ will breaks NTFS",
+    "Trying to access this path on Windows 10 ver. 1803+ will breaks NTFS",
   language: "Text",
   starsCount: 1,
   forksCount: 0,
@@ -153,7 +153,6 @@ describe("Fetch Cards", () => {
     // Check if the Vercel preview instance language card function is up and running.
     console.log(
       `${VERCEL_PREVIEW_URL}/api/top-langs/?username=${USER}&${CACHE_BURST_STRING}`,
-      axiosConfig,
     );
     await expect(
       axios.get(
