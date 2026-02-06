@@ -1,5 +1,5 @@
 {
-  "name": "github-readme-stats",
+  "name": "github-stats",
   "version": "1.0.0",
   "description": "Dynamically generate stats for your GitHub readme",
   "keywords": [
@@ -10,13 +10,13 @@
   ],
   "main": "src/index.js",
   "type": "module",
-  "homepage": "https://github.com/anuraghazra/github-readme-stats",
+  "homepage": "https://github.com/rstar327/github-stats",
   "bugs": {
-    "url": "https://github.com/anuraghazra/github-readme-stats/issues"
+    "url": "https://github.com/rstar327/github-stats/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anuraghazra/github-readme-stats.git"
+    "url": "https://github.com/rstar327/github-stats.git"
   },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
@@ -33,7 +33,7 @@
     "lint": "npx eslint --max-warnings 0 \"./src/**/*.js\" \"./scripts/**/*.js\" \"./tests/**/*.js\" \"./api/**/*.js\" \"./themes/**/*.js\"",
     "bench": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config jest.bench.config.js"
   },
-  "author": "Anurag Hazra",
+  "author": "rstar327",
   "license": "MIT",
   "devDependencies": {
     "@actions/core": "^3.0.0",
