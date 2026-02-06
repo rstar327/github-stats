@@ -331,7 +331,7 @@ cambia el valor del parámetro `?username=` a tu username en [WakaTime](https://
 
 - Temas
 
-Escoja cualquiera de los [temas por defecto](#themes)
+Escoja cualquiera de los [temas por defecto](`#temas`)
 
 ![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&show_icons=true&theme=radical)
 
