@@ -27,7 +27,7 @@ const STATS_DATA = {
   contributedTo: 0,
   rank: {
     level: "C",
-    percentile: 98.68229727575474,
+    percentile: 98.68218354741477,
   },
 };
 
@@ -52,9 +52,9 @@ const LANGS_DATA = {
 const WAKATIME_DATA = {
   human_readable_range: "last week",
   is_already_updating: false,
-  is_coding_activity_visible: false,
+  is_coding_activity_visible: true,
   is_including_today: false,
-  is_other_usage_visible: true,
+  is_other_usage_visible: false,
   is_stuck: false,
   is_up_to_date: false,
   is_up_to_date_pending_future: false,
