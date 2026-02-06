@@ -5,23 +5,23 @@
 </p>
 
   <p align="center">
-    <a href="https://github.com/anuraghazra/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/rstar327/github-stats/actions">
+      <img alt="Tests Passing" src="https://github.com/rstar327/github-stats/workflows/Test/badge.svg" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/anuraghazra/github-readme-stats" />
+    <a href="https://github.com/rstar327/github-stats/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/rstar327/github-stats" />
     </a>
-    <a href="https://codecov.io/gh/anuraghazra/github-readme-stats">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/anuraghazra/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/rstar327/github-stats">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/rstar327/github-stats/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/anuraghazra/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/rstar327/github-stats/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/rstar327/github-stats?color=0088ff" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/rstar327/github-stats/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/rstar327/github-stats?color=0088ff" />
     </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/anuraghazra/github-readme-stats">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/anuraghazra/github-readme-stats/badge" />
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/rstar327/github-stats">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/rstar327/github-stats/badge" />
     </a>
     <br />
     <br />
@@ -30,9 +30,9 @@
   <p align="center">
     <a href="#todos-los-ejemplos">Ver un ejemplo</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Reportar un bug</a>
+    <a href="https://github.com/rstar327/github-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Reportar un bug</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Solicitar una mejora</a>
+    <a href="https://github.com/rstar327/github-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Solicitar una mejora</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français</a>
@@ -58,7 +58,6 @@
     <a href="/docs/readme_np.md">नेपाली</a>
   </p>
 </p>
-<p align="center">¿Te gusta este proyecto? ¡Por favor, considera <a href="https://www.paypal.me/anuraghazra">donar</a> para ayudar a mejorarlo!
 
 # Características <!-- omit in toc -->
 
@@ -92,7 +91,7 @@ Copia y pega esto en el contenido de tu README.md y listo. ¡Simple!
 Cambia el valor de `?username=` al nombre de tu usuario de GitHub.
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327)](https://github.com/rstar327/github-stats)
 ```
 
 _Nota: Los rangos disponibles son S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%) y B+ (todos). Los valores se calculan utilizando la [función de distribución acumulada](https://es.wikipedia.org/wiki/Funci%C3%B3n_de_distribuci%C3%B3n) utilizando commits, contribuciones, issues, estrellas, pull request, seguidores y repositorios propios. Puedes investigar más sobre la implementación en [src/calculateRank.js](../src/calculateRank.js)._
@@ -104,7 +103,7 @@ Para ocultar alguna estadística específica, puedes utilizar el parámetro `?hi
 > Opciones: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,prs)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&hide=contribs,prs)
 ```
 
 ### Agregar contribuciones privadas al total de commits contados
@@ -116,7 +115,7 @@ _Nota: Si estás desplegando este proyecto tú mismo, las contribuciones privada
 > Opciones: `&count_private=true`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&count_private=true)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&count_private=true)
 ```
 
 ### Mostrar íconos
@@ -124,7 +123,7 @@ _Nota: Si estás desplegando este proyecto tú mismo, las contribuciones privada
 Para habilitar los íconos, puedes utilizar `show_icons=true` como parámetro, de esta manera:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&show_icons=true)
 ```
 
 ### Temas
@@ -134,7 +133,7 @@ Puedes personalizar el aspecto de la tarjeta sin realizar ninguna [personalizaci
 Utiliza el parámetro `?theme=THEME_NAME`, de esta manera:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&show_icons=true&theme=radical)
 ```
 
 #### Todos los temas incorporados
@@ -222,19 +221,19 @@ Los pines adicionales de GitHub le permiten fijar más de 6 repositorios en su p
 
 Copia y pegua este código en tu Readme y cambia los enlaces.
 
-Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
+Endpoint: `api/pin?username=rstar327&repo=github-stats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats)](https://github.com/rstar327/github-stats)
 ```
 
 ### Ejemplo
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats)](https://github.com/rstar327/github-stats)
 
 Utiliza la variable [show_owner](#customización) para incluir el nombre de usuario del propietario del repositorio.
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats&show_owner=true)](https://github.com/rstar327/github-stats)
 
 # Tarjeta de Lenguajes Principales
 
@@ -246,10 +245,10 @@ _NOTA: los lenguajes principales no indican mi nivel de habilidad o algo así, e
 
 Copia y pegua este código en tu Readme y cambia los enlaces.
 
-Endpoint: `api/top-langs?username=anuraghazra`
+Endpoint: `api/top-langs?username=rstar327`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-stats-mu-nine.vercel.app/api/top-langs/?username=rstar327)](https://github.com/rstar327/github-stats)
 ```
 
 ### Excluir repositorios individualmente
@@ -257,7 +256,7 @@ Endpoint: `api/top-langs?username=anuraghazra`
 Puedes usar el parámetro `?exclude_repo=repo1,repo2` para ocultar repositorios individualmente.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-stats-mu-nine.vercel.app/api/top-langs/?username=rstar327&exclude_repo=github-stats,rstar327.github.io)](https://github.com/rstar327/github-stats)
 ```
 
 ### Ocultar lenguajes individualmente
@@ -265,7 +264,7 @@ Puedes usar el parámetro `?exclude_repo=repo1,repo2` para ocultar repositorios 
 Puedes usar el parámetro `?hide=language1,language2` para ocultar lenguajes individualmente.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-stats-mu-nine.vercel.app/api/top-langs/?username=rstar327&hide=javascript,html)](https://github.com/rstar327/github-stats)
 ```
 
 ### Mostrar más lenguajes
@@ -273,7 +272,7 @@ Puedes usar el parámetro `?hide=language1,language2` para ocultar lenguajes ind
 Puedes usar el paramétro `&langs_count=` para incrementar o decrementar el número de lenguajes mostrados en la tarjeta. Los valores admitidos son los números enteros entre 1 y 10 (inclusive), y el valor por defecto es 5.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-stats-mu-nine.vercel.app/api/top-langs/?username=rstar327&langs_count=8)](https://github.com/rstar327/github-stats)
 ```
 
 ### Diseño Compacto de Tarjeta de Lenguaje
@@ -281,34 +280,34 @@ Puedes usar el paramétro `&langs_count=` para incrementar o decrementar el núm
 Puedes usar la opción `& layout = compact` para cambiar el diseño de la tarjeta.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-stats-mu-nine.vercel.app/api/top-langs/?username=rstar327&layout=compact)](https://github.com/rstar327/github-stats)
 ```
 
 ### Ejemplo
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-stats-mu-nine.vercel.app/api/top-langs/?username=rstar327)](https://github.com/rstar327/github-stats)
 
 - Diseño compacto
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-stats-mu-nine.vercel.app/api/top-langs/?username=rstar327&layout=compact)](https://github.com/rstar327/github-stats)
 
 # Estadísticas de la semana de WakaTime
 
 cambia el valor del parámetro `?username=` a tu username en [WakaTime](https://wakatime.com).
 
 ```md
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-stats-mu-nine.vercel.app/api/wakatime?username=ffflabs)](https://github.com/rstar327/github-stats)
 ```
 
 ### Ejemplo
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-stats-mu-nine.vercel.app/api/wakatime?username=ffflabs)](https://github.com/rstar327/github-stats)
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-stats-mu-nine.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/rstar327/github-stats)
 
 - Diseño compacto
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-stats-mu-nine.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/rstar327/github-stats)
 
 ---
 
@@ -316,49 +315,49 @@ cambia el valor del parámetro `?username=` a tu username en [WakaTime](https://
 
 - Por defecto
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327)
 
 - Ocultando ciertas estadísticas
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,issues)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&hide=contribs,issues)
 
 - Mostrando íconos
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=issues&show_icons=true)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&hide=issues&show_icons=true)
 
 - Incluyendo todos los commits
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&include_all_commits=true)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&include_all_commits=true)
 
 - Temas
 
-Escoja cualquiera de los [temas por defecto](#themes)
+Escoja cualquiera de los [temas por defecto](`#temas`)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&show_icons=true&theme=radical)
 
 - Gradiente
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api?username=rstar327&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Personalizando Tarjeta de Estadísticas
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=anuraghazra&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api/?username=rstar327&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Estableciendo Idioma de la tarjeta
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=anuraghazra&locale=es)
+![rstar327's GitHub stats](https://github-stats-mu-nine.vercel.app/api/?username=rstar327&locale=es)
 
 - Personalizando Tarjeta de Repo
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=anuraghazra&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://github-stats-mu-nine.vercel.app/api/pin?username=rstar327&repo=github-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Lenguajes Top
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-stats-mu-nine.vercel.app/api/top-langs/?username=rstar327)](https://github.com/rstar327/github-stats)
 
 - Tarjeta de WakaTime
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-stats-mu-nine.vercel.app/api/wakatime?username=ffflabs)](https://github.com/rstar327/github-stats)
 
 ---
 
@@ -367,11 +366,11 @@ Escoja cualquiera de los [temas por defecto](#themes)
 Por lo general, no podrás acomodar las imágenes una al lado de la otra. Para hacerlo, puede usar este enfoque:
 
 ```html
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
+<a href="https://github.com/rstar327/github-stats">
+  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-stats" />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
+<a href="https://github.com/rstar327/github-profile-trophy">
+  <img align="center" src="https://github-stats-mu-nine.vercel.app/api/pin/?username=rstar327&repo=github-profile-trophy" />
 </a>
 ```
 
@@ -379,11 +378,11 @@ Por lo general, no podrás acomodar las imágenes una al lado de la otra. Para h
 
 #### [Échale un vistazo a este tutorial paso a paso de @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Desde que la API de GitHub permite solo 5k peticiones por hora, es posible que mi `https://github-readme-stats.vercel.app/api` pueda llegar al límite. Si lo alojas en tu propio servidor de Vercel, no tendrás que preocuparte de nada. ¡Clickea en el botón "Deploy" para comenzar!
+Desde que la API de GitHub permite solo 5k peticiones por hora, es posible que mi `https://github-stats-mu-nine.vercel.app/api` pueda llegar al límite. Si lo alojas en tu propio servidor de Vercel, no tendrás que preocuparte de nada. ¡Clickea en el botón "Deploy" para comenzar!
 
-NOTA: Debido a [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) podríamos manejar más de 5k peticiones sin tener ningún problema con el downtime :D
+NOTA: Debido a [#58](https://github.com/rstar327/github-stats/pull/58) podríamos manejar más de 5k peticiones sin tener ningún problema con el downtime :D
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/anuraghazra/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/rstar327/github-stats)
 
 <details>
  <summary>Guía para comenzar en Vercel</summary>
@@ -414,13 +413,7 @@ No obstante, si estás utilizando este proyecto y estás feliz con él o simplem
 
 - Darme créditos cuando estés utilizando github-readme-stats en tu README, añadiendo un link a este repositorio :D
 - Dándole una estrella y compartiendo el proyecto :rocket:
-- [![paypal.me/anuraghazra](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/anuraghazra) - Puedes hacerme una única donación a través de PayPal. Probablemente me compraré un ~~café~~ té. :tea:
-
 ¡Gracias! :heart:
-
----
-
-[![https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss](../powered-by-vercel.svg)](https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss)
 
 ¡Las contribuciones son bienvenidas! <3
 
